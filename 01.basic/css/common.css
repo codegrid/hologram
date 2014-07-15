@@ -1,0 +1,87 @@
+/*doc
+---
+title: heading
+name: heading
+category: block
+---
+
+The quick brown fox jumps over the lazy dog. 
+
+## output
+
+<div class="heading">
+  <p class="subText">見出しの補足見出しの補足</p>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+
+## html
+
+```html
+<div class="heading">
+  <p class="subText">見出しの補足見出しの補足</p>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading {
+  border: 1px solid #7f8c58;
+  padding: 10px;
+  color: #fff;
+  background: #97a66c;
+}
+.heading .subText {
+  font-size: 12px;
+  padding: 0 0 8px;
+  margin: 0;
+}
+.heading .mainText {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/*doc
+---
+title: textSet
+name: textSet
+category: block
+---
+
+The quick brown fox jumps over the lazy dog. 
+
+## output
+
+<div class="textSet">
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+</div>
+
+## html
+
+```html
+<div class="textSet">
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+  <p>彼は背後にひそかな足音を聞いた。それはあまり良い意味を示すものではない。誰がこんな夜更けに、しかもこんな街灯のお粗末な港街の狭い小道で彼をつけて来るというのだ。</p>
+</div>
+```
+
+*/
+
+.textSet {
+  border-top: 2px solid #986b39;
+  border-bottom: 2px solid #986b39;
+  padding: 20px 20px 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.textSet p {
+  padding: 0 0 10px;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}

@@ -1,0 +1,70 @@
+/*doc
+---
+title: heading1
+name: heading1
+category: heading
+---
+
+The quick brown fox jumps over the lazy dog. 
+
+```block
+<div class="heading1">
+  <p class="subText">見出しの補足見出しの補足</p>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading1 {
+  border: 1px solid #7f8c58;
+  padding: 10px;
+  color: #fff;
+  background: #97a66c;
+}
+.heading1 .subText {
+  font-size: 12px;
+  padding: 0 0 8px;
+  margin: 0;
+}
+.heading1 .mainText {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/*doc
+---
+title: heading2
+name: heading2
+category: heading
+---
+
+The quick brown fox jumps over the lazy dog. 
+
+```block
+<div class="heading2">
+  <p class="subText">見出しの補足見出しの補足</p>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading2 {
+  border: 1px solid #8c6960;
+  padding: 10px;
+  color: #fff;
+  background: #cd9a8d;
+}
+.heading2 .subText {
+  font-size: 12px;
+  padding: 0 0 8px;
+  margin: 0;
+}
+.heading2 .mainText {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}

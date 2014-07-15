@@ -5,7 +5,7 @@ name: heading1
 category: heading
 ---
 
-The quick brown fox jumps over the lazy dog. 
+見出しのベースです。
 
 ```block
 <div class="heading1">
@@ -39,7 +39,7 @@ category: heading
 parent: heading1
 ---
 
-The quick brown fox jumps over the lazy dog. 
+バリエーション`typeA`です。
 
 ```block
 <div class="heading1 heading1--typeA">
@@ -65,7 +65,7 @@ category: heading
 parent: heading1
 ---
 
-The quick brown fox jumps over the lazy dog. 
+バリエーション`typeB`です。
 
 ```block
 <div class="heading1 heading1--typeB">

@@ -5,7 +5,7 @@ name: heading1
 category: heading
 ---
 
-The quick brown fox jumps over the lazy dog. 
+headingカテゴリのものは`heading.html`に出力されます。
 
 ## output
 
@@ -50,7 +50,7 @@ name: heading2
 category: heading
 ---
 
-The quick brown fox jumps over the lazy dog. 
+headingカテゴリのものは`heading.html`に出力されます。
 
 ## output
 
@@ -95,7 +95,7 @@ name: textSet1
 category: textSet
 ---
 
-The quick brown fox jumps over the lazy dog. 
+textSetカテゴリのものは`textSet.html`に出力されます。
 
 ## output
 

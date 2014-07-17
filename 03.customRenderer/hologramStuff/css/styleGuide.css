@@ -138,6 +138,15 @@ body {
     color: #626361;
   }
   
+  .sg-blockExpContainer > p code,
+  .sg-blockExpContainer > ul code,
+  .sg-blockExpContainer > ol code,
+  .sg-blockExpContainer > table code {
+    border: 1px solid #d4d1ca;
+    padding: 0 .3em;
+    margin: 0 .2em;
+  }
+  
 .sg-codeExpContanier {
   margin: 0 0 20px;
 }

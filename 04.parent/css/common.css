@@ -9,7 +9,7 @@ category: heading
 
 ```block
 <div class="heading1">
-  <p class="subText">見出しの補足見出しの補足</p>
+  <div class="subText">見出しの補足見出しの補足</div>
   <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
 </div>
 ```
@@ -43,7 +43,7 @@ parent: heading1
 
 ```block
 <div class="heading1 heading1--typeA">
-  <p class="subText">見出しの補足見出しの補足</p>
+  <div class="subText">見出しの補足見出しの補足</div>
   <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
 </div>
 ```
@@ -69,7 +69,7 @@ parent: heading1
 
 ```block
 <div class="heading1 heading1--typeB">
-  <p class="subText">見出しの補足見出しの補足</p>
+  <div class="subText">見出しの補足見出しの補足</div>
   <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
 </div>
 ```

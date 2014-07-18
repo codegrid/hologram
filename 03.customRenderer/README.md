@@ -1,7 +1,7 @@
 # hologram sample
 
 ```bash
-$ bundle
+$ bundle install
 ```
 
 ```bash

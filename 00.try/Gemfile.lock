@@ -5,7 +5,7 @@ GEM
       pygments.rb (~> 0.4)
       redcarpet (~> 2.2)
     posix-spawn (0.3.8)
-    pygments.rb (0.5.4)
+    pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     redcarpet (2.3.0)
@@ -15,4 +15,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  hologram
+  hologram (= 1.1.0)

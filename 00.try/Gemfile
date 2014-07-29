@@ -1,2 +1,2 @@
 source "http://rubygems.org"
-gem "hologram"
+gem "hologram", "1.1.0"

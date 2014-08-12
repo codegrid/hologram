@@ -64,6 +64,30 @@ category: heading
   border: 1px solid #000;
 }
 
+
+/*doc
+---
+title: heading3
+name: heading3
+category: heading
+---
+
+さらに別の見出しです。
+
+```html
+<h3 class="heading3">彼は背後にひそかな足音を聞いた</h3>
+```
+
+*/
+
+.heading3 {
+  border-bottom: 1px solid #000;
+  padding: 0 0 .3em 30px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+
 /*doc
 ---
 title: heading1--typeA

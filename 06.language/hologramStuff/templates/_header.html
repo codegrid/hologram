@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Style Guide: <%= title %></title>
+<link rel="stylesheet" href="../css/common.css"><!-- Site CSS -->
+<link rel="stylesheet" href="../hologramStuff/css/styleGuide.css"><!-- Styleguide CSS -->
+</head>
+<body>
+<div class="sg-gLayout">
+  <div class="sg-gLayout__side">
+    
+    <div class="sg-siteTitleH">Style Guide</div>
+    
+    <ul class="sg-sideList">
+      <% @blocks.each do |block| %> 
+        <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
+      <% end %>
+    </ul>
+    
+  <!-- /sg-gLayout__side --></div>
+  
+  <div class="sg-gLayout__main">
+  
+    <div class="sg-pageTitleH"><%= title %></div>
+    <div class="sg-blockExpContainer">

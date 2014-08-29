@@ -78,6 +78,13 @@ category: heading
 <h3 class="heading3">彼は背後にひそかな足音を聞いた</h3>
 ```
 
+この見出しでは以下のJSを使用します。(ここでは動作はしません）
+
+```js
+$('.heading3').click(function(){
+  alert('this is heading3');
+});
+```
 */
 
 .heading3 {

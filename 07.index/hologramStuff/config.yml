@@ -1,0 +1,19 @@
+# Hologram config
+
+# The directory containing the source files to parse
+source: ../css
+
+# The directory that hologram will build to
+destination: ../docs
+
+# The assets needed to build the docs (includes header.html, footer.html, etc)
+documentation_assets: ../hologramStuff/templates
+
+# This is a custom markdown renderer (see Redcarpet documentation for
+# how to do this)
+custom_markdown: ../hologramStuff/markdown_renderer.rb
+
+# Mark which category should be the index page
+# Alternatively, you may have an index.md in the documentation assets
+# folder instead of specifying this config.
+index: heading

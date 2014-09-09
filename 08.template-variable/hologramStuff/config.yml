@@ -1,0 +1,9 @@
+# hologram config 
+#スタイルガイドの元になるCSSのフォルダ
+source: ../css
+#スタイルガイドの書き出し先
+destination: ../docs
+#テンプレートフォルダ
+documentation_assets: ../hologramStuff/templates
+#カスタムマークダウン
+custom_markdown: ../hologramStuff/markdown_renderer.rb

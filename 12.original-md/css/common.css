@@ -1,0 +1,30 @@
+/*doc
+---
+category: paragraph
+name: paragraph
+title: 文章
+---
+
+これは文章を記述するときに使用します
+<p class="mod-p">The quick brown fox jumps over the lazy dog.</p>
+*/
+.mod-p {
+  font-size: 30px;
+}
+
+
+/*doc
+---
+category: color
+name: color
+title: このサイトで使用している色
+---
+ 
+[color: black] 黒カラーチップ
+ 
+他にはこのような色があります。
+ 
+- [color: tomato] 赤カラーチップ
+- [color: limegreen] 緑カラーチップ
+ 
+*/

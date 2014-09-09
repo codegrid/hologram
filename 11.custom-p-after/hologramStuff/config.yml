@@ -1,0 +1,15 @@
+# hologram config 
+#スタイルガイドの元になるCSSのフォルダ
+source: ../css
+#スタイルガイドの書き出し先
+destination: ../docs
+#テンプレートフォルダ
+documentation_assets: ../hologramStuff/templates
+#カスタムマークダウン
+custom_markdown: ../hologramStuff/markdown_renderer.rb
+#スタイルガイド内で使用したい社名など
+companyname: 'PixelGrid'
+#スタイルガイドで使用するJavaScript
+js_include:
+  - 'http://code.jquery.com/jquery-1.10.2.min.js'
+  - '../assets/js/main.js'

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<% if file_name == "index.html" then %>
+<title>Style Guide: Top</title>
+<% else %>
+<title>Style Guide: <%= title %></title>
+<% end %>
+<link rel="stylesheet" href="../css/common.css"><!-- Site CSS -->
+<link rel="stylesheet" href="../hologramStuff/css/styleGuide.css"><!-- Styleguide CSS -->
+</head>
+<body>
+<div class="sg-gLayout">
+  <div class="sg-gLayout__side">
+    
+    <div class="sg-siteTitleH">Style Guide</div>
+    
+    <ul class="sg-sideList">
+      <% @blocks.each do |block| %> 
+        <li><a href="#<%= block[:name] %>"><%= block[:title] %></a></li>
+      <% end %>
+    </ul>
+    
+  <!-- /sg-gLayout__side --></div>
+  
+  <div class="sg-gLayout__main">
+  
+    <% if file_name == "index.html" then %>
+    <div class="sg-pageTitleH">Top</div>
+    <% else %>
+    <div class="sg-pageTitleH"><%= @title %></div>
+    <% end %>
+    <div class="sg-blockExpContainer">

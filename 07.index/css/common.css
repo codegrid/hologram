@@ -1,0 +1,179 @@
+/*doc
+---
+title: heading1
+name: heading1
+category: heading
+---
+
+見出しのベースです。
+
+```block
+<div class="heading1">
+  <div class="subText">見出しの補足見出しの補足</div>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading1 {
+  border: 1px solid #000;
+  padding: 10px;
+}
+.heading1 .subText {
+  font-size: 12px;
+  padding: 0 0 8px;
+  margin: 0;
+}
+.heading1 .mainText {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/*doc
+---
+title: heading2
+name: heading2
+category: heading
+---
+
+別の見出しです。
+
+```block
+<h2 class="heading2">彼は背後にひそかな足音を聞いた</h2>
+```
+
+*/
+
+.heading2 {
+  border-bottom: 3px double #000;
+  padding: 0 0 .3em 30px;
+  position: relative;
+  font-size: 1.3em;
+}
+.heading2:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background: #333;
+  left: 0;
+  top: .35em;
+  border: 1px solid #000;
+}
+
+
+/*doc
+---
+title: heading3
+name: heading3
+category: heading
+---
+
+さらに別の見出しです。
+
+```html
+<h3 class="heading3">彼は背後にひそかな足音を聞いた</h3>
+```
+
+この見出しでは以下のJSを使用します。(ここでは動作はしません）
+
+```js
+$('.heading3').click(function(){
+  alert('this is heading3');
+});
+```
+*/
+
+.heading3 {
+  border-bottom: 1px solid #000;
+  padding: 0 0 .3em 30px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+
+/*doc
+---
+title: heading1--typeA
+name: heading1--typeA
+category: heading
+parent: heading1
+---
+
+バリエーション`typeA`です。
+
+```block
+<div class="heading1 heading1--typeA">
+  <div class="subText">見出しの補足見出しの補足</div>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading1--typeA {
+  color: #fff;
+  border-color: #7f8c58;
+  background: #97a66c;
+}
+
+
+/*doc
+---
+title: heading1--typeB
+name: heading1--typeB
+category: heading
+parent: heading1
+---
+
+バリエーション`typeB`です。
+
+```block
+<div class="heading1 heading1--typeB">
+  <div class="subText">見出しの補足見出しの補足</div>
+  <h2 class="mainText">彼は背後にひそかな足音を聞いた。それはあまり良い意味を</h2>
+</div>
+```
+
+*/
+
+.heading1--typeB {
+  color: #fff;
+  border-color: #8c6960;
+  background: #cd9a8d;
+}
+
+/*doc
+---
+title: list1
+name: list1
+category: lists
+---
+
+リストです
+
+```block
+<ul class="list1">
+  <li class="list1__item">リストリストリスト</li>
+  <li class="list1__item">リストリストリスト</li>
+  <li class="list1__item">リストリストリスト</li>
+</ul>
+```
+*/
+.list1 {
+  font-size: 14px;
+  border: 1px solid #000;
+  padding: 10px;
+  list-style: none;
+}
+.list1__item {
+  border-top: 1px dotted #000;
+  padding-top: 5px;
+}
+.list1__item:first-child {
+  border-top-width: 0;
+  padding-top: 0;
+}
